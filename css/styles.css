@@ -1,0 +1,52 @@
+/* ## TOP MENU ## */
+
+#app-btn{
+    position: relative;
+    top: 3px;
+    width: 16px;
+}
+
+#signin-btn{
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    margin-left: 15px;
+}
+
+#top-menu{
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    min-height: 65px;
+}
+
+#top-menu ul {
+    padding-inline-start: 0;
+}
+
+#top-menu li{
+    display: inline-block;
+}
+
+#top-menu li a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 15px;
+    opacity: 0.75;
+}
+
+#tmenu-left{
+    height:100%;
+}
+
+#tmenu-right{
+    height:100%;
+    margin-right: 20px;
+}
+
+/* ## MAIN ## */
